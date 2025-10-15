@@ -30,7 +30,7 @@ jobs:
 
   lint:
     runs-on: ubuntu-latest
-    needs: test # This ensures lint runs after the test job succeeds
+    # needs: test # This ensures lint runs after the test job succeeds
 
     steps:
       - name: Checkout code
